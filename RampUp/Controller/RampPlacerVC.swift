@@ -5,12 +5,13 @@
 //  Created by Hayden Jamieson on 05/01/2018.
 //  Copyright © 2018 Hayden Jamieson. All rights reserved.
 //
+//  Only runnable on ios11 and A9 processors in phones. Not runnable on Simulator
 
 import UIKit
 import SceneKit
 import ARKit
 
-class ViewController: UIViewController, ARSCNViewDelegate {
+class RampPlacerVC: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
     
